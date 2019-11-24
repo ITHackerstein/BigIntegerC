@@ -41,7 +41,7 @@ Function | Returns | Description
 -------- | ------- | -----------
 BI_Not(BigInteger bi) | BigInteger | Computes `~bi`
 BI_And(BigInteger bi1, BigInteger bi2) | BigInteger | Computes `bi1 & bi2`
-BI_Or(BigInteger bi1, BigInteger bi2) | BigInteger | Computes `bi1 | bi2`
+BI_Or(BigInteger bi1, BigInteger bi2) | BigInteger | Computes `bi1 \| bi2`
 BI_Xor(BigInteger bi1, BigInteger bi2) | BigInteger | Computes `bi1 ^ bi2`
 BI_Shr(BigInteger bi, int shift) | BigInteger | Computes `bi1 >> shift`
 BI_Shl(BigInteger bi, int shift) | BigInteger | Computes `bi1 << shift`
